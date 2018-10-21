@@ -1,0 +1,243 @@
+/** PAGE */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	padding: 0px;
+	background:#EEE8AA ;
+	font-family:Trebuchet ms,Lucida Sans Unicode,Comic Sans ms,sans-serif;
+	font-size: 1.0rem;
+	color: #ffffff;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+h2
+{
+	font-weight: 400;
+	font-family:Trebuchet ms,Lucida Sans Unicode,Comic Sans ms,sans-serif;
+	font-size: 2.50rem;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+a {
+	color: #1492C4;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+hr {
+	display: none;
+}
+
+#wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 40px;
+  margin: -6px auto;
+  overflow: hidden;
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+/** HEADER */
+.header img{
+	width : 100%;
+}
+
+#header-wrapper
+{
+	overflow: hidden;
+	height: 40px;
+	width: 100%;
+	margin-bottom: 20px;
+	background-color:  #391505;
+}
+
+#header {
+	overflow: hidden;
+	width: 651px;
+}
+
+#logo {
+	float: left;
+	width: 300px;
+	height: 100px;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+}
+
+#logo h1 a {
+	padding-left: 20px;
+	text-decoration: none;
+	font-size: 1.50rem;
+	font-weight: 400;
+	font-family:Trebuchet ms,Lucida Sans Unicode,Comic Sans ms,sans-serif;
+	color: #FFFFFF;
+}
+
+/** MENU */
+
+#menu {
+	float: right;
+	height:50px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	margin-right: 1px;
+}
+
+#menu a {
+	display: block;
+	height: 40px;
+	padding: 0px 30px;
+	line-height: 40px;
+	text-decoration: none;
+	font-size : 1.0rem;
+	color: #FFFFFF;
+}
+
+#menu a:hover , #menu a:focus{
+	text-decoration: none;
+	background: rgba(0,0,0,0.70);
+	transition-duration: 0.7s;
+}
+
+#menu .active
+{
+	background: rgba(0,0,0,0.70);
+	font-weight: bold;
+}
+
+
+#page {
+	overflow: hidden;
+}
+article{
+	position: relative;
+	margin: 75px 0 55px 175px;
+}
+
+/** CONTENT */
+
+.content {
+	
+	padding: 40px;
+	background: #391505;
+	width :70%;
+	border-radius:15px;
+}
+
+.content h2 a
+{
+	display: block;
+	padding: 0px 0px 20px 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+form{
+	width: 75%;
+	margin : auto;
+}
+section{
+	width: 75%;
+	margin : auto;
+}
+
+
+/* Footer */
+
+#footer {
+	width : 100%;
+	overflow: hidden;
+	margin: 20px auto 0px auto;
+	padding: 20px 0px;
+	background:  #391505;
+}
+
+#footer p {
+	text-align: center;
+	font-size: 1.0rem;
+}
+
+#footer img {
+	height : 90px;
+	margin-left : 20px;
+}
+
+#footer figure {
+	width : 100%;
+	text-align : center;
+	height : 100%;
+	margin-top: 0px;
+	margin-bottom : 5px
+}
+/*menu lateral*/
+#fixe{
+	font-family:Trebuchet ms,Lucida Sans Unicode,Comic Sans ms,sans-serif;
+	width : 18%;
+	height: 100%;
+	background:  #391505;
+	position : fixed;
+	float : left;
+	width : 215px; 
+	height: 300px; 
+	left:50px;
+	top:250px;
+	border-radius:15px;
+}
+
+
+#fixe ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#fixe li {
+	width : 100%;
+	height : 75px;
+	text-align : center;
+	margin: 0px auto 0px auto;
+	font-size :0.8rem;
+}
+#menu #fixe a {
+	height: 75px;
+	line-height: 75px;
+}
